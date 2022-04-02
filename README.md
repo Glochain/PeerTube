@@ -38,8 +38,10 @@ npx hardhat run scripts/deploy.js --network localhost
 npm run dev
 ```
 
-## Deployed Mumbai address
+## Deployed Polygon Mumbai address
 
-deployed to: deployed to: 0xbC64CE7bF3DF373e6f3789245Ced365c9dfb8795
-0xBd565918BB2f031Bf5CC85332B33a9d604c0d3A6
+deployed to: deployed to: 0xBd565918BB2f031Bf5CC85332B33a9d604c0d3A6
+
+## Subgraph
+Subgraph : https://thegraph.com/hosted-service/subgraph/holyaustin/peertube
 
