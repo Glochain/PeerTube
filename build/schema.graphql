@@ -1,0 +1,22 @@
+type MarketItemCreated @entity {
+  id: ID!
+  tokenId: BigInt! # uint256
+  seller: Bytes! # address
+  owner: Bytes! # address
+  price: BigInt! # uint256
+  sold: Boolean! # bool
+}
+
+type Approval @entity {
+  id: ID!
+  owner: Bytes! # address
+  approved: Bytes! # address
+  tokenId: BigInt! # uint256
+}
+
+type Transfer @entity {
+  id: ID!
+  from: Bytes! # address
+  to: Bytes! # address
+  tokenId: BigInt! # uint256
+}
