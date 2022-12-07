@@ -8,7 +8,7 @@ A marketplace of videos NFTs where users, can purchase video NFTs. They can buy 
 1. Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
-git clone https://github.com/holyaustin/peertube.git
+git clone https://github.com/Glochain/PeerTube.git
 
 cd peertube
 
@@ -41,7 +41,4 @@ npm run dev
 ## Deployed Polygon Mumbai address
 
 deployed to: deployed to: 0xBd565918BB2f031Bf5CC85332B33a9d604c0d3A6
-
-## Subgraph
-Subgraph : https://thegraph.com/hosted-service/subgraph/holyaustin/peertube
 
