@@ -9,7 +9,7 @@ module.exports = {
     },
    
     mumbai: {
-      url: "https://rpc-mumbai.matic.today", 
+      url: "https://matic-mumbai.chainstacklabs.com", 
       accounts: [process.env.PRIVATE_KEY],
     },
      /*
