@@ -1,0 +1,36 @@
+{
+  "name": "marcosc-async",
+  "version": "3.0.5",
+  "description": "Lightweight promise/generator machinery.",
+  "main": "lib/async.js",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "pretest": "npm run jshint && npm run jscs",
+    "jshint": "jshint lib test",
+    "jscs": "jscs lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcoscaceres/async.git"
+  },
+  "keywords": [
+    "async",
+    "generators",
+    "promises",
+    "functional"
+  ],
+  "author": "Marcos Caceres",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/marcoscaceres/async/issues"
+  },
+  "homepage": "https://github.com/marcoscaceres/async#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "mocha": "^3.1.2"
+  },
+  "engines": ">=4"
+}

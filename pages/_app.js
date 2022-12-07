@@ -5,7 +5,7 @@ import Link from 'next/link'
 function MyApp({ Component, pageProps }) {
   return (
     <div >
-      <nav className="border-b p-6 bg-blue-500">
+      <nav className="border-b p-6 bg-purple-500">
         <p className="text-6xl font-bold">PeerTube</p>
         <div className="fflex mt-4 font-bold font-sans ml-8 text-left">
           <Link href="/">
